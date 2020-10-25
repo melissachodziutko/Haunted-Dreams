@@ -23,7 +23,6 @@ public class Pages : MonoBehaviour
         {
             //GetComponent<Rigidbody2D>().velocity = Vector3.zero;
             Destroy(gameObject);
-
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

@@ -60,7 +60,7 @@ public class EnemyControl : MonoBehaviour
             if (hitR.collider.CompareTag("Player") || hitL.collider.CompareTag("Player"))
             {
                 Debug.Log("hit the player");
-                PlayerMovement.pages -= 1;
+                // PlayerMovement.pages -= 1;
                 isChasing = true;
             }
 
